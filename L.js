@@ -1,9 +1,3 @@
-function deleteThat() {
-    return confirm("Bы уверены, что хотите удалить это?\n(Ну, удалено оно не будет)");
-}
-function sucsessbutno() {
-    alert("Ну, допустим, успешно, да.");
-}
 function ucant() {
     alert("Ась? В смысле? Это тут работать не будет, это для лабы по ооп было...");
 }
@@ -12,24 +6,6 @@ function fckU(pepkeck) {
     alert(pepkeck);
 }
 
-function bulba1(keck) //Задание 1.1
-{
-    return keck;
-}
-function bulba2(keck1, keck2)//Задание 1.2
-{
-    return keck1 + keck2;
-}
-function bulba3()//Задание 1.3
-{
-    let keck = ["sadsad", 123, -1233, 'a', 2134, 0, 14, 5, serd, 10, "asd"];
-    for (let i = 0; i < keck.length; i++) {
-        if (isNaN(keck[i]))
-            keck[i] = 0;
-        else
-            keck[i] *= keck[i];
-    }
-}
 function dorandom() {
 
     var url = "https://api.random.org/json-rpc/2/invoke";
@@ -61,22 +37,7 @@ function dorandom() {
         fckU("Чччеееел, мы тут рандомим за разнообразие, так что повторяться они не могут.\nТак что слишком много указано для такого маленького диапазона.");
         return;
     }
-    //var options = {
-    //    method: "POST",
-    //    mode: "no-cors",
-    //    headers: {
-    //        "jsonrpc": "2.0",
-    //        "method": "generateIntegers",
-    //        "params": {
-    //            "apiKey": "00d79163-e0e4-405d-ba4e-859df106d6eb",
-    //            "n": document.getElementById("n").value,
-    //            "min": document.getElementById("min").value,
-    //            "max": document.getElementById("max").value,
-    //            "replacement": "false"
-    //        },
-    //        "id": 0
-    //    }
-    //}
+    
     var pep = {
         "jsonrpc": "2.0",
         "method": "generateIntegers",
